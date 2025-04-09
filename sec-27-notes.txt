@@ -1,0 +1,53 @@
+﻿Section 27: Git, Github and Version Control
+Introduction to Version Control and Git:
+* What is Git?
+   * a free and open-source version control system designed to handle everything from small to very large projects with speed and efficiency.
+   * It's distributed, meaning every developer has a full copy of the project history on their own machine.
+   * used to track changes in source code, so multiple people can work on a project without messing things up.
+* What is version control?
+   *  a system that records changes to a file or set of files over time so that you can recall specific versions later.
+* Why developers use Git & version control:
+   * Work on new features without affecting the main project.
+   * Collaborate with others easily.
+   * Undo mistakes quickly.
+   * Maintain clean, trackable code history.
+GitHub & Remote Repositories:
+* What is GitHub?
+   * a cloud-based platform where developers can store, share, and collaborate on code using Git.
+   * Key features:
+      * Hosts remote repositories
+      * Lets multiple people collaborate on code
+      * Includes tools for issue tracking, pull requests, code reviews, and CI/CD
+      * Integrates with services like VS Code, Slack, and more
+* What is a Remote Repository?
+   * a version of a developer’s project that’s hosted online, typically on a platform like GitHub, GitLab, or Bitbucket.
+   * With Git, a developer can:
+      * push their code from local → remote
+      * pull updates from remote → local
+      * clone a remote repo to start working locally
+* Why developers use remote repositories:
+   * So their code is safe and backed up in the cloud
+   * To collaborate with teammates in real time
+   * To work from any device, anywhere
+   * To showcase their work to potential employers (very helpful for portfolios!)
+Gitignore:
+* A .gitignore file tells Git which files or folders to ignore—meaning it won’t track or include them in version control.
+* It’s useful for:
+   * Keeping sensitive files (like API keys, passwords)
+   * Ignoring temporary files (like logs or build files)
+   * Skipping OS-specific junk (like .DS_Store on macOS)
+Cloning:
+* when a developer copies a remote repository (like one on GitHub) to their local machine so that they can work on it.
+* Cloning vs. Forking vs. Downloading:
+   * Cloning: When a developer wants a full working copy with Git history so they can track changes, commit, push, etc.
+   * Forking: When a developer wants to make their own version of someone else’s repo on GitHub so they can contribute (great for open source).
+   * Downloading ZIP: When a developer just wants the code as-is, no Git tracking or history.
+Branching & Merging:
+* What is a Branch?
+   * a sandbox or workspace where a developer can make changes to a project without affecting the main codebase (usually called the main or master branch).
+   * Why use branches:
+      * Work on new features, bug fixes, or experiments
+      * Keep the main project clean and stable
+      * Collaborate without stepping on each other’s toes
+* What is Merging?
+   * The process of a developer bringing their changes in a branch that they’ve been working on (usually a develop branch) back to another branch (the main branch).
